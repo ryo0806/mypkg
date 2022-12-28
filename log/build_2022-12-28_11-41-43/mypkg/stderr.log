@@ -1,0 +1,7 @@
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+  File "/home/ryo/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py", line 14
+    pub = node.create_subscription(Int16 "countup", cb, 10)
+                                         ^^^^^^^^^
+SyntaxError: invalid syntax
+

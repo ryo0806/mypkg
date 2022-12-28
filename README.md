@@ -54,7 +54,7 @@
 
  5.コピーしたディレクトリの一番上で`$ colcon build`を実行
 
- 6.パッケージを利用可能にするために以下を実行
+ 6.パッケージを利用可能にするために以下を`~/.bashrc`の末尾に追加
 	`$ source ~/mypkg/install/setup.bash`
 	`$ source ~/mypkg/install/local_setup.bash`
 

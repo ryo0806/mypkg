@@ -1,0 +1,31 @@
+[0.693s] Invoking command in '/home/ryo/ros2_ws/src/mypkg': PYTHONPATH=/home/ryo/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/ryo/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/ryo/ros2_ws/src/mypkg/install/mypkg --record /home/ryo/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed
+[0.936s] running egg_info
+[0.937s] writing build/mypkg/mypkg.egg-info/PKG-INFO
+[0.937s] writing dependency_links to build/mypkg/mypkg.egg-info/dependency_links.txt
+[0.937s] writing entry points to build/mypkg/mypkg.egg-info/entry_points.txt
+[0.937s] writing requirements to build/mypkg/mypkg.egg-info/requires.txt
+[0.938s] writing top-level names to build/mypkg/mypkg.egg-info/top_level.txt
+[0.940s] reading manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.940s] adding license file 'LICENSE'
+[0.941s] writing manifest file 'build/mypkg/mypkg.egg-info/SOURCES.txt'
+[0.941s] running build
+[0.942s] running build_py
+[0.942s] running install
+[0.942s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.942s]   warnings.warn(
+[0.942s] running install_lib
+[0.943s] byte-compiling /home/ryo/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py to listener.cpython-310.pyc
+[0.944s] running install_data
+[0.944s]   File "/home/ryo/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg/listener.py", line 14
+[0.945s]     pub = node.create_subscription(Int16 "countup", cb, 10)
+[0.945s]                                          ^^^^^^^^^
+[0.945s] SyntaxError: invalid syntax
+[0.945s] 
+[0.945s] running install_egg_info
+[0.946s] removing '/home/ryo/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.957s] Copying build/mypkg/mypkg.egg-info to /home/ryo/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages/mypkg-0.0.0-py3.10.egg-info
+[0.959s] running install_scripts
+[0.994s] Installing listener script to /home/ryo/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.995s] Installing talker script to /home/ryo/ros2_ws/src/mypkg/install/mypkg/lib/mypkg
+[0.995s] writing list of installed files to '/home/ryo/ros2_ws/src/mypkg/build/mypkg/install.log'
+[1.039s] Invoked command in '/home/ryo/ros2_ws/src/mypkg' returned '0': PYTHONPATH=/home/ryo/ros2_ws/src/mypkg/install/mypkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base build/mypkg build --build-base /home/ryo/ros2_ws/src/mypkg/build/mypkg/build install --prefix /home/ryo/ros2_ws/src/mypkg/install/mypkg --record /home/ryo/ros2_ws/src/mypkg/build/mypkg/install.log --single-version-externally-managed

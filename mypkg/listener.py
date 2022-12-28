@@ -1,10 +1,13 @@
+#SPDX-FileCopyrightText: 2022 Ryo Yanagisawa
+#SPDX-License-Identifier: BSD-3-Clause
+
 import rclpy
 from rclpy.node import Node
 from person_msgs.msg import Person
 
 def cb(msg):
-    global node
-    node.get_logger().info("Listen: %s" % msg)
+        global node
+        node.get_logger().info("Listen: %s" % msg)
 
 rclpy.init()
 node = Node("listener")

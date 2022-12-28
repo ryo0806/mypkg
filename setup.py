@@ -1,3 +1,6 @@
+#SPDX-fileCopyrightText: 2022 Ryo Yanagisawa
+#SPDX-License-Identifier: BSD-3-Clause
+
 from setuptools import setup
 import os
 from glob import glob

@@ -1,4 +1,7 @@
-#!/bin/bash -xv
+#!/bin/bash
+#SPDX-FileCopyrightText: 2022 Ryo Yanagisawa
+#SPDX-License-Identifier: BSD-3-Clause
+
 
 dir=~
 [ "$1" != "" ] && dir="$1"
@@ -10,3 +13,4 @@ timeout 10 ros2 launch mypkg talk_listen.launch.py > /tmp/mypkg.log
 
 cat /tmp/mypkg.log |
 grep 'Listen: 10'
+

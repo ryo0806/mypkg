@@ -1,3 +1,6 @@
+#SPDX-fileCopyrightText: 2022 Ryo Yanagisawa
+#SPDX-License-Identifier: BSD-3-Clause
+
 import launch
 import launch.actions
 import launch.substitutions
